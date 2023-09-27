@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5fbe95ef9d586e3f05cf3b496e6732e2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5fbe95ef9d586e3f05cf3b496e6732e2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5fbe95ef9d586e3f05cf3b496e6732e2 = L.map(
+                "map_5fbe95ef9d586e3f05cf3b496e6732e2",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_33f151130787647877d9cf12c7c1987e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+            var circle_marker_7093c02ff25e6ad6dd071585997696e8 = L.circleMarker(
+                [32.3078, -64.7505],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_73ad241cdd3b428ddb3e87706c204604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fac44e01ba36d75e5ff8c5e4d885a090 = $(`<div id="html_fac44e01ba36d75e5ff8c5e4d885a090" style="width: 100.0%; height: 100.0%;">Bermuda: Cost of Living 225.86</div>`)[0];
+                popup_73ad241cdd3b428ddb3e87706c204604.setContent(html_fac44e01ba36d75e5ff8c5e4d885a090);
+            
+        
+
+        circle_marker_7093c02ff25e6ad6dd071585997696e8.bindPopup(popup_73ad241cdd3b428ddb3e87706c204604)
+        ;
+
+        
+    
+    
+            var circle_marker_cab46ed6865d69c806d3a880999002a8 = L.circleMarker(
+                [64.9631, -19.0208],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_abda645b56804b01e694da6cd12cdfe9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7c98bb33b1a93616e742bbf418d4114 = $(`<div id="html_d7c98bb33b1a93616e742bbf418d4114" style="width: 100.0%; height: 100.0%;">Iceland: Cost of Living 209.1</div>`)[0];
+                popup_abda645b56804b01e694da6cd12cdfe9.setContent(html_d7c98bb33b1a93616e742bbf418d4114);
+            
+        
+
+        circle_marker_cab46ed6865d69c806d3a880999002a8.bindPopup(popup_abda645b56804b01e694da6cd12cdfe9)
+        ;
+
+        
+    
+    
+            var circle_marker_34f3d4976483a591be0fe9eb584c5c59 = L.circleMarker(
+                [46.8182, 8.2275],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_9cdb92f44bbb497c428c0eec57609167 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2631f11b59c5d0733b69fa91ef582389 = $(`<div id="html_2631f11b59c5d0733b69fa91ef582389" style="width: 100.0%; height: 100.0%;">Switzerland: Cost of Living 197.89</div>`)[0];
+                popup_9cdb92f44bbb497c428c0eec57609167.setContent(html_2631f11b59c5d0733b69fa91ef582389);
+            
+        
+
+        circle_marker_34f3d4976483a591be0fe9eb584c5c59.bindPopup(popup_9cdb92f44bbb497c428c0eec57609167)
+        ;
+
+        
+    
+    
+            var circle_marker_b2b1514f52e5d2060201fd1c891dfe15 = L.circleMarker(
+                [60.472, 8.4689],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_32d03e453f0a15250798f8dd755acf66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f722f93bc7eb57fc11b43de6e4a3e237 = $(`<div id="html_f722f93bc7eb57fc11b43de6e4a3e237" style="width: 100.0%; height: 100.0%;">Norway: Cost of Living 186.52</div>`)[0];
+                popup_32d03e453f0a15250798f8dd755acf66.setContent(html_f722f93bc7eb57fc11b43de6e4a3e237);
+            
+        
+
+        circle_marker_b2b1514f52e5d2060201fd1c891dfe15.bindPopup(popup_32d03e453f0a15250798f8dd755acf66)
+        ;
+
+        
+    
+    
+            var circle_marker_e31e69a6baa4b651d399a4454f151ba8 = L.circleMarker(
+                [56.2639, 9.5018],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_b447146f0b3ca395206dbdc8955c6956 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70626d50db6d9ab2bd58696fcd68ec94 = $(`<div id="html_70626d50db6d9ab2bd58696fcd68ec94" style="width: 100.0%; height: 100.0%;">Denmark: Cost of Living 171.78</div>`)[0];
+                popup_b447146f0b3ca395206dbdc8955c6956.setContent(html_70626d50db6d9ab2bd58696fcd68ec94);
+            
+        
+
+        circle_marker_e31e69a6baa4b651d399a4454f151ba8.bindPopup(popup_b447146f0b3ca395206dbdc8955c6956)
+        ;
+
+        
+    
+    
+            var circle_marker_68687e5450944d13f8c6c2370dac151f = L.circleMarker(
+                [40.1431, 47.5769],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_b44005dfbd10c720675a4b97da9a9c48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbda0ee6f2e7ac892023a20b29fe41c2 = $(`<div id="html_bbda0ee6f2e7ac892023a20b29fe41c2" style="width: 100.0%; height: 100.0%;">Azerbaijan: Cost of Living 40.56</div>`)[0];
+                popup_b44005dfbd10c720675a4b97da9a9c48.setContent(html_bbda0ee6f2e7ac892023a20b29fe41c2);
+            
+        
+
+        circle_marker_68687e5450944d13f8c6c2370dac151f.bindPopup(popup_b44005dfbd10c720675a4b97da9a9c48)
+        ;
+
+        
+    
+    
+            var circle_marker_ecb13a42cfcc11c7749f94617ac69561 = L.circleMarker(
+                [41.2044, 74.7661],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_44aa7d2eea3f9f8a7d51d62027eaf719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08dad5a48c4f3a42b4b14397ef777dc0 = $(`<div id="html_08dad5a48c4f3a42b4b14397ef777dc0" style="width: 100.0%; height: 100.0%;">Kyrgyzstan: Cost of Living 40.38</div>`)[0];
+                popup_44aa7d2eea3f9f8a7d51d62027eaf719.setContent(html_08dad5a48c4f3a42b4b14397ef777dc0);
+            
+        
+
+        circle_marker_ecb13a42cfcc11c7749f94617ac69561.bindPopup(popup_44aa7d2eea3f9f8a7d51d62027eaf719)
+        ;
+
+        
+    
+    
+            var circle_marker_92d2c1d3539f36961d17e24194714082 = L.circleMarker(
+                [12.8628, 30.2176],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_8b91f8fc47d415c0f0e185b3b7892054 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bed7b4f07d84f97d71d7f5273ba40a05 = $(`<div id="html_bed7b4f07d84f97d71d7f5273ba40a05" style="width: 100.0%; height: 100.0%;">Sudan: Cost of Living 38.29</div>`)[0];
+                popup_8b91f8fc47d415c0f0e185b3b7892054.setContent(html_bed7b4f07d84f97d71d7f5273ba40a05);
+            
+        
+
+        circle_marker_92d2c1d3539f36961d17e24194714082.bindPopup(popup_8b91f8fc47d415c0f0e185b3b7892054)
+        ;
+
+        
+    
+    
+            var circle_marker_e3d81af18e9604e952f5bc7ba90026a6 = L.circleMarker(
+                [48.3794, 31.1656],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_e48470dfadc1542f8e2ad0e4fa37e64c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f605732a373e9bda237d65695064fca4 = $(`<div id="html_f605732a373e9bda237d65695064fca4" style="width: 100.0%; height: 100.0%;">Ukraine: Cost of Living 37.76</div>`)[0];
+                popup_e48470dfadc1542f8e2ad0e4fa37e64c.setContent(html_f605732a373e9bda237d65695064fca4);
+            
+        
+
+        circle_marker_e3d81af18e9604e952f5bc7ba90026a6.bindPopup(popup_e48470dfadc1542f8e2ad0e4fa37e64c)
+        ;
+
+        
+    
+    
+            var circle_marker_4732ab412b31051b70be18590939e410 = L.circleMarker(
+                [26.8206, 30.8025],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5fbe95ef9d586e3f05cf3b496e6732e2);
+        
+    
+        var popup_0169a1cac55fd32870d83b393f539888 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e65c8313b536e3a321cc7d7630c723b = $(`<div id="html_1e65c8313b536e3a321cc7d7630c723b" style="width: 100.0%; height: 100.0%;">Egypt: Cost of Living 27.37</div>`)[0];
+                popup_0169a1cac55fd32870d83b393f539888.setContent(html_1e65c8313b536e3a321cc7d7630c723b);
+            
+        
+
+        circle_marker_4732ab412b31051b70be18590939e410.bindPopup(popup_0169a1cac55fd32870d83b393f539888)
+        ;
+
+        
+    
+</script>
+</html>
